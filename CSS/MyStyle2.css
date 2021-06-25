@@ -1,0 +1,158 @@
+body {
+    --text-color: #222;
+    --bkg-color: #fff;
+  }
+  body.dark-theme {
+    --text-color: #eee;
+    --bkg-color: #121212;
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    /* defaults to dark theme */
+    body {
+      --text-color: #eee;
+      --bkg-color: #121212;
+    }
+    body.light-theme {
+      --text-color: #222;
+      --bkg-color: #fff;
+    }
+  }
+  
+  * {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  body {
+    background: var(--bkg-color);
+  }
+  
+  h1,
+  p {
+    color: var(--text-color);
+    font-family: cursive;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  h1 , h2 {
+    color: peru;
+    font-family: verdana,;
+    font-size: 200%;
+    text-align: center;
+    }
+  h3 {
+    color: peru;
+    font-family: verdana;
+  }
+    #myHeader {
+        background-color: powderblue;
+        color: black;
+        padding: 40px;
+        text-align: center;
+      }
+      /*ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        /*background-color: #333; 
+      }*/
+      
+      ul a:hover, .dropdown:hover .dropbtn {
+      background-color: burlywood;
+      }   
+        
+      
+      /*li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      } */
+      /*.dropdown {
+        float: left;
+        overflow: hidden;
+      } 
+      .dropdown .dropbtn {
+        font-size: 16px;  
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+      }
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      .dropdown-content a {
+        float: none;
+        color: black; 
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left; 
+      } */
+      .dropdown-menu:hover .dropdown-content {
+        display: block; 
+      } 
+      /** { padding: 0; margin: 0; }*/
+    	canvas { background: #eee; display: block; margin: 0 auto; } 
+      
+      #Image1, #Image2, #Image3, #Image4 {
+        border-radius: 8px;
+        
+      }
+
+      .img-fluid {
+        max-width: 100%;
+        height: auto;
+        
+      }
+      
+      /*Tic Tac Toe game*/
+
+      .game--container {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        width: 306px;
+        margin: 50px auto;
+    }
+    
+    .cell {
+        font-family: "Permanent Marker", cursive;
+        width: 100px;
+        height: 100px;
+        box-shadow: 0 0 0 1px #333333;
+        border: 1px solid #333333;
+        cursor: pointer;
+    
+        line-height: 100px;
+        font-size: 60px;
+    }
+
+    p.c {
+      white-space: pre;
+    }
+    
+    
+
+      
+      
+
+      

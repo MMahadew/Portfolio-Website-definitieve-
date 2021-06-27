@@ -38,11 +38,11 @@ function sum()
   result= a+b;
   alert("The sum is equals to " + result);
 }
-function rest() 
+function substract() 
 {
   setValues();
   result= a-b;
-  alert("The rest is equals to " + result);
+  alert("The substract is equals to " + result);
 }
 function mult() 
 {
